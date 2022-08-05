@@ -1,0 +1,103 @@
+
+body
+{
+    
+    background-image: url('Dp.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+}
+h1{
+    color: rgb(1, 18, 18);
+    text-align: center;
+}
+p{
+    color:black;
+
+}
+@media only screen and (max-width: 600px) {
+body {
+background-color: lightblue;
+
+}
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.from h2{
+float: right;
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+color: darkred;
+font-size: 22px;
+background-color: aliceblue;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+}
+.from input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.from input:focus{
+    outline: none;
+}
+.from{
+    align-items:center;
+}
+::placeholder{
+    color: aliceblue;
+    font-family: arial;
+}
+.btnn{
+    width: 240;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background:#fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.from .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.from .link
+{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
